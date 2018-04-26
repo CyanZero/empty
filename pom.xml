@@ -14,7 +14,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.8</jdk.version>
 		<junit.version>4.11</junit.version>
-		<project.basedir>/Users/Calvin/Documents/dev</project.basedir>
+		<project.basedir>/Users/Calvin/Documents/dev/empty</project.basedir>
 	</properties>
 
 	<build>
@@ -29,17 +29,6 @@
 				<configuration>
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>false</downloadJavadocs>
-				</configuration>
-			</plugin>
-
-			<!-- Set a JDK compiler level -->
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>2.3.2</version>
-				<configuration>
-					<source>${jdk.version}</source>
-					<target>${jdk.version}</target>
 				</configuration>
 			</plugin>
 
